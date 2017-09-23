@@ -1,0 +1,99 @@
+body{
+	background-color: #E9EBEE;
+}
+
+a{
+	text-decoration: none;
+	color: black;
+}
+
+#header{
+	height: 42px;
+	background-color: #4267B2
+}
+
+.navbar{
+	max-width: 900px;
+	margin: auto;
+}
+
+.navbar-left{
+	width: 50%;
+}
+
+.navbar-left, .navbar-right{
+	display: inline-block;
+}
+
+.navbar-left input{
+	width: 90%;
+	display: inline-block;
+}
+
+.fb-logo{
+	display: inline-block;
+	background-image: url('https://www.facebook.com/rsrc.php/v3/ye/r/jNvmNEDilLw.png');
+	background-repeat: no-repeat;
+	background-size: 25px 626px;
+	background-position: 0 -50px;
+	height: 24px;
+	outline: none;
+	overflow: hidden;
+	text-indent: -999px;
+	white-space: nowrap;
+	width: 24px;	
+}
+
+.navbar-right{
+	width: 49%;
+}
+
+/* The ">" will apply the rule ONLY to direct decendents of the parent */
+.navbar-right > div, .navbar-right li{
+	display: inline-block;
+}
+
+/* #ads{
+	color: white;
+}
+
+ */
+
+#content{
+	max-width: 900px;
+	margin: auto;
+	margin-top: 15px;
+}
+
+#content > div{
+	display: inline-block;
+	vertical-align: top;
+	background-color: #ddd;
+	min-height: 100vh;
+	border-radius: 5px;
+}
+
+.left-content{
+	width: 20%;
+}
+
+.left-content .left-menu-item{
+	padding: 10px;
+}
+
+/* Pseudo classes like "hover" are only applied to the element under
+certain circumstatnces */
+.left-content .left-menu-item:hover{
+	background-color: white;
+}
+
+.main-content{
+	width: 50%;
+}
+
+.right-content{
+	width: 25%;
+}
+/* .news-feed-item{
+	
+} */
